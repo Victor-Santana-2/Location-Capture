@@ -64,7 +64,5 @@ O Servidor será iniciado em 'http://localhost:3000'
 # Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-# Licença![Screenshot_2025-04-15_19_43_03](https://github.com/user-attachments/assets/a31d634d-ea17-4702-9cdd-e9c1eb5c639b)
-
+# Licença
 Este projeto está licenciado sob a [MIT License](https://github.com/Victor-Santana-2/Location-Capture/blob/main/LICENSE).
-![Screenshot 2025-04-15 at 19-52-27 Screenshot 2025-04-15 at 19-48-37 Screenshot_2025-04-15_19_43_03 png (PNG Image 1280 × 720 pixels) — Scaled (78%) png (PNG Image 951 × 427 pixels)](https://github.com/user-attachments/assets/88e8e529-9c89-4b27-9d20-d3e42c10917b)
