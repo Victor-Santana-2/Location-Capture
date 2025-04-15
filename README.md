@@ -29,7 +29,7 @@ Antes de começar, você precisará ter o Node.js instalado em sua máquina. Voc
 2. Instale as Dependências:
 
    ```bash
-   nmp install
+   npm install
 
 3. Execução:
 
