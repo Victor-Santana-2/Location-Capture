@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Rastreamento de Localização</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Rastreador de Localização</h1>
+    <button id="getLocation">Obter Localização</button>
+    <p><a href="/locations" target="_blank">Ver Localizações Recebidas</a></p>
+    <script>
+        document.getElementById('getLocation').onclick = function() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    // Enviar dados para o servidor
+                    fetch('/save-location', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ latitude, longitude })
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            console.log("Localização enviada com sucesso!");
+                        } else {
+                            console.error("Erro ao enviar localização.");
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Erro na requisição: ", error);
+                    });
+                }, function(error) {
+                    console.error("Erro ao obter localização: ", error);
+                });
+            } else {
+                alert("Geolocalização não é suportada por este navegador.");
+            }
+        };
+    </script>
+</body>
+</html>
