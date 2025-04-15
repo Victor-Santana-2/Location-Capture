@@ -50,7 +50,7 @@ O Servidor será iniciado em 'http://localhost:3000'
 ## 2. Envio de Localização
 ![foto 2](https://github.com/user-attachments/assets/74d16d33-c254-4236-bb52-ed120315cf35)
 ## 3. Resultados de Localização
-![foto 3](https://github.com/user-attachments/assets/5385462a-fd49-47c4-a751-f63e9a25d988)
+![foto 3](https://github.com/user-attachments/assets/34bcd0d9-1431-4b5c-ba9b-7303a66395e4)
 ![foto 4](https://github.com/user-attachments/assets/eb482bc0-b6be-4ea2-8365-16989480738e)
 
 
