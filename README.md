@@ -51,4 +51,8 @@ O Servidor será iniciado em 'http://localhost:3000'
 - package.json       # Dependências do projeto
 - public/            # Diretório para arquivos estáticos (HTML, CSS, JS)
 
+# Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
+# Licença
+Este projeto está licenciado sob a MIT License.
