@@ -23,7 +23,7 @@ Antes de começar, você precisará ter o Node.js instalado em sua máquina. Voc
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/rastreador-localizacao.git
+   git clone https://github.com/Victor-Santana-2/Location-Capture.git
    cd rastreador-localizacao
 
 2. Instale as Dependências:
